@@ -4,7 +4,9 @@
   "description": "Issue tracking website used as a learning tool for the MERN stack.",
   "main": "index.js",
   "scripts": {
-    "start": "node server/server.js",
+    "compile": "babel src --out-dir public",
+    "watch": "babel src --out-dir public --watch --verbose",
+    "start": "nodemon -w server server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +30,8 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
-    "@babel/preset-react": "^7.9.4"
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "nodemon": "^2.0.3"
   }
 }

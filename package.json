@@ -1,0 +1,27 @@
+{
+  "name": "mernstacklearning",
+  "version": "1.0.0",
+  "description": "Issue tracking website used as a learning tool for the MERN stack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidov541/MERNStackLearning.git"
+  },
+  "keywords": [
+    "mern",
+    "learning",
+    "tutorial"
+  ],
+  "author": "David McGinnis",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/davidov541/MERNStackLearning/issues"
+  },
+  "homepage": "https://github.com/davidov541/MERNStackLearning#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

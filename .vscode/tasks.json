@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "compile",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "compile",
+			"detail": "babel src --out-dir public"
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "start",
+			"detail": "nodemon -w server server/server.js",
+			"dependsOn": ["compile"],
+			"isBackground": true
+		}
+	]
+}

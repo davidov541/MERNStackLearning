@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable react/react-in-jsx-scope */
 const continents = ['North America', 'South America', 'Africa', 'Asia', 'Europe', 'Australia', 'Antartica']
 const helloContinents = Array.from(continents, c => `Hello ${c}!`)
 const message = helloContinents.join('\n')
